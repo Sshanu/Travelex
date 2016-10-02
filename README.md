@@ -1,1 +1,4 @@
 # Travelex
+Travelex is an one-stop app for all the services you require while travelling. One of the special features which makes Travelex different from others is the ability to identify important historical places and many other things using an API. Although the implementation of this feature was unsuccessful in first attempt, we intend to do it soon. Along with this the app has features like finding hotels & restaurants locating near you and it can also act as your travel itinary.
+
+Although it has not been possible to implement all the features, we did attempt to all of them. The services we used include Cloudsight API ( although it has not been successfully integrated in the app), the zomato API for restaurant search, the Expedia API for hotel search and a Firebase database to store our travel itinery(not successfully integrated in the app). So, when the app is fully developed it will serve the purpose of a complete travel companion.
