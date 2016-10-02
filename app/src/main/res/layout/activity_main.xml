@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/activity_detail__restaurant"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/location_image"
+        android:src="@drawable/location"
+        android:paddingBottom="8dp"
+        android:scaleType="fitXY"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/location_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            android:text="Current Location: "
+            android:textColor="@color/cardview_dark_background"/>
+        <TextView
+            android:id="@+id/location_address_view"
+            android:layout_toRightOf="@id/location_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="18sp"
+            android:text=""/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/description1"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hotel"
+            />
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/description1"
+            android:maxLines="3"
+            android:padding="16dp"
+            android:text="Hotels"
+            android:textColor="#222"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/description2"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/restaurant"
+            />
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/description2"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:text="Restaurants"
+            android:textColor="#222"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/description3"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/camera"
+            />
+
+        <TextView
+            android:id="@+id/name3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/description3"
+            android:maxLines="3"
+            android:padding="8dp"
+            android:text="Camera"
+            android:textColor="#222"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>
